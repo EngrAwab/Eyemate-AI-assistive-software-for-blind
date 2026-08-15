@@ -95,11 +95,25 @@ EyeMate is designed to be fully accessible for users with severe visual impairme
    python front.py
    ```
 
-### 2. Microcontroller Setup
+### 2. Android App Setup
+
+**Option 1 — Install APK**
+
+1. Download the `base.apk` file from the root of this repository.
+2. Transfer it to an Android device and install the APK.
+
+**Option 2 — Build from Source**
+
+1. Open the `app_source_code/launchdroidcam` project in Android Studio.
+2. Allow Gradle to sync and install any required dependencies.
+3. Connect an Android device with USB debugging enabled or use an Android emulator.
+4. Build and run the application from Android Studio.
+   
+### 3. Microcontroller Setup
 1. **ESP32 (Teddy Remote):** Install the ESP32 board manager in Arduino IDE. Flash the remote routing code to map physical button presses to Wi-Fi/Bluetooth commands.
 2. **Arduino Nano (Haptic Belt):** Flash the serial communication code to receive directional commands from the Laptop and actuate the left/right vibration motors.
 
-### 3. Networking
+### 4. Networking
 - Ensure the ESP32 remote and the Laptop are paired via MAC address or on the same local Wi-Fi network to ensure commands route successfully.
 
 ---
