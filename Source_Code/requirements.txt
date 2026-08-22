@@ -1,0 +1,8 @@
+pyttsx3==2.98
+pyautogui==0.9.54
+easyocr==1.7.2
+ultralytics==8.3.82
+opencv-python==4.11.0.86
+pillow==11.0.0
+numpy==1.26.4
+python-nmap
